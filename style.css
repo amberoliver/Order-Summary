@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: rgb(214, 213, 214);
+}
+
+.card {
+    width: 350px;
+    height: 500px;
+    border-width: 1px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+main>img {
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    margin: 0 auto 15px;
+}
+
+#paragraph {
+    max-width: 300px;
+    margin: 0 auto 15px;
+    color: rgb(95, 94, 94);
+}
+
+#plan>img {
+    margin-top: 5%;
+    width: 40px;
+    float: left;
+    padding-left: 5%;
+}
+
+#annual {
+    font-weight: 700;
+    float: left;
+    padding-left: 7%;
+    padding-top: 0%;
+}
+
+#amount {
+    color: rgb(150, 148, 148);
+}
+
+#plan {
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 23px;
+    margin: 0 auto 15px;
+}
+
+#plan>button {
+    color: rgb(47, 47, 206);
+    text-decoration: underline;
+    text-decoration-color: rgb(47, 47, 206);
+    background-color: whitesmoke;
+    border: none;
+    font-size: small;
+    float: right;
+    padding-top: 8%;
+}
+
+#payment {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(47, 47, 206);
+    border-radius: 15px;
+    margin-left: 23px;
+    box-shadow: 0 18px 18px #b3bfcb;
+    margin: 0 auto 30px;
+}
+
+#payment>button {
+    background-color: rgb(47, 47, 206);
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+}
+
+#cancel>button {
+    border: none;
+    color: grey;
+    font-weight: 700;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
